@@ -19,3 +19,25 @@ const myObj = {
 const myFunction = function () {
     console.log("Hello world")
 }
+
+
+
+// -------------------------------------------
+//  Stake (primitive ), Heap(non-primitive) 
+
+let name = "yash"
+let name2 = name
+
+name= "yash Savaliya"
+console.log(name);
+console.log(name2);
+
+let user = {
+    userName : "yash",
+    age : 25
+}
+
+let userTwo = user
+userTwo.name = "yash Savaliya"
+
+console.log(user.name);
